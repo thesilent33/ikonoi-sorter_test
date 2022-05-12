@@ -3,15 +3,6 @@ html
 	font-size: 1rem;
 }
 
-footer {
-  position:relative;
-  text-align: center;
-  padding: 3px;
-  bottom: 0;
-  background-color: #ea6c81;
-  color: white;
-}
-
 /* START of custom checkmark*/
 /* The checkbox-container */
 .checkbox-container {
@@ -110,7 +101,21 @@ footer {
 
 body {
   font-family: "Bahnschrift", Helvetica, sans-serif;
+  position: relative;
+  min-height: 100%;
+  min-height: 100vh;
   /*font-size: 14px;*/
+}
+
+footer {
+  position:absolute;
+  text-align: center;
+  padding: 3px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ea6c81;
+  color: white;
 }
 
 /*.container {
