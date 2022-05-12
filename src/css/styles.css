@@ -3,6 +3,13 @@ html
 	font-size: 1rem;
 }
 
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+
 /* START of custom checkmark*/
 /* The checkbox-container */
 .checkbox-container {
