@@ -109,14 +109,14 @@ body {
 
 footer {
   /* position:relative; */
-  position:absolute;
+  position:sticky;
   text-align: center;
   padding: 0px;
   padding-top: 1rem;
   /* padding-bottom: 50px; */
   /* left: 0;
   right: 0; */
-  bottom: -10rem;
+  /* bottom: -10rem; */
   font-size: 0.7rem;
   background-color: #ea6c81;
   color: white;
