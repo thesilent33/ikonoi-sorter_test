@@ -109,7 +109,7 @@ body {
 
 footer {
   /* position:relative; */
-  position:absolute;
+  position:relative;
   text-align: center;
   padding: 3px;
   left: 0;
