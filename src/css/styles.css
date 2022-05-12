@@ -115,8 +115,8 @@ footer {
   padding-top: 1rem;
   /* padding-bottom: 50px; */
   /* left: 0;
-  right: 0;
-  bottom: 0; */
+  right: 0; */
+  bottom: -10rem;
   font-size: 0.7rem;
   background-color: #ea6c81;
   color: white;
