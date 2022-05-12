@@ -115,9 +115,9 @@ footer {
   padding: 0px;
   padding-top: 3px;
   /* padding-bottom: 50px; */
-  left: 0;
+  /* left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 0; */
   background-color: #ea6c81;
   color: white;
 }
@@ -313,7 +313,7 @@ footer {
   font-size: 0.7rem;
   
   /* padding-bottom: 60vmin; */
-  
+  padding-bottom: 5rem;
   
   
   /*grid-template-columns: repeat(3, 1fr);
