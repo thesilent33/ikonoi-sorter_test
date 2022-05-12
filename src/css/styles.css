@@ -107,7 +107,7 @@ body {
   /*font-size: 14px;*/
 }
 
-footer {
+.footers {
   /* position:relative; */
   position:absolute;
   text-align: center;
