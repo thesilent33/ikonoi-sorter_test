@@ -9,7 +9,6 @@ html
   display: block;
   position: relative;
   justify-content: center;
-  text-align: center;
   padding-left: 35px;
   margin-bottom: 12px;
   cursor: pointer;
@@ -113,11 +112,12 @@ footer {
   position:absolute;
   text-align: center;
   padding: 0px;
-  padding-top: 3px;
+  padding-top: 30px;
   /* padding-bottom: 50px; */
   /* left: 0;
   right: 0;
   bottom: 0; */
+  font-size: 0.7rem;
   background-color: #ea6c81;
   color: white;
 }
@@ -313,7 +313,7 @@ footer {
   font-size: 0.7rem;
   
   /* padding-bottom: 60vmin; */
-  padding-bottom: 5rem;
+  padding-bottom: 4rem;
   
   
   /*grid-template-columns: repeat(3, 1fr);
