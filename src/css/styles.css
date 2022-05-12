@@ -102,16 +102,18 @@ html
 body {
   font-family: "Bahnschrift", Helvetica, sans-serif;
   position: relative;
-  min-height: 100%;
-  min-height: 100vh;
+  min-height: 200%;
+  min-height: 200vh;
+  /* padding-bottom: 55%; */
   /*font-size: 14px;*/
 }
 
-.footers {
+footer {
   /* position:relative; */
   position:absolute;
   text-align: center;
-  padding: 3px;
+  padding: 0px;
+  padding-top: 3px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -307,6 +309,7 @@ body {
   /*display: grid;*/
   text-align: left;
   font-size: 0.7rem;
+  padding-bottom: 400px;
   /*grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
   width: 450px;
