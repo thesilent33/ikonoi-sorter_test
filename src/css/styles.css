@@ -3,11 +3,11 @@ html
 	font-size: 1rem;
 }
 
-footer {
+kaki {
   text-align: center;
   padding: 3px;
-  background-color: DarkSalmon;
-  color: white;
+  background-color: #ea6c81;
+  color: #ea6c81;
 }
 
 /* START of custom checkmark*/
