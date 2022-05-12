@@ -4,7 +4,7 @@ html
 }
 
 footer {
-  position: relative;
+  position:relative;
   text-align: center;
   padding: 3px;
   bottom: 0;
@@ -110,7 +110,6 @@ footer {
 
 body {
   font-family: "Bahnschrift", Helvetica, sans-serif;
-  
   /*font-size: 14px;*/
 }
 
