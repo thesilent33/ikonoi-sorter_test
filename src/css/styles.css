@@ -110,8 +110,8 @@ body {
 footer {
   /* position:relative; */
   /* position: -webkit-sticky; */
-  position:fixed;
-  bottom: 0rem;
+  position:absolute;
+  bottom: 0;
   text-align: center;
   padding: 0px;
   padding-top: 1rem;
