@@ -309,7 +309,9 @@ footer {
   /*display: grid;*/
   text-align: left;
   font-size: 0.7rem;
-  padding-bottom: 60vmin;
+  
+  /* padding-bottom: 60vmin; */
+  
   /*grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
   width: 450px;
