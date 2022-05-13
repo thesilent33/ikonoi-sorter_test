@@ -131,7 +131,7 @@ div.sticky {
   background-color: #ea6c81;
   color: white;
   padding: 1rem;
-  padding-bottom: 0.1rem;
+  /* padding-bottom: 0.1rem; */
   font-size: 0.7rem;
 }
 
