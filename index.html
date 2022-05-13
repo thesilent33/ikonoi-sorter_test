@@ -17,7 +17,8 @@
   <link rel="shortcut icon" href="src/assets/favicon.ico" type="image/x-icon">
   <link rel="icon" href="src/assets/favicon.ico" type="image/x-icon">
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="og:site_name" content="IkoNoiJoi Sorter">
   <meta name="og:description" content="A simple website for sorting =LOVE, ≠ME & ≒JOY favorit members in a formatted list.">
   <meta name="og:image" content="src/assets/thumbnail.jpg">
@@ -42,6 +43,7 @@
   <meta name="twitter:site" content="joe_046">
   
   <title>IkoNoiJoi Favorit Members Sorter</title>
+  
 
   <!-- <link rel="stylesheet" type="text/css" href="src/css/reset.css"> -->
   <!-- Latest compiled and minified CSS -->
@@ -59,11 +61,20 @@
 	
 	<!-- jQuery library -->
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-	
+	<style>
+		
+		.main {
+		 flex-grow: 1;
+		 background-color: pink;
+		}
+		footer {
+		 background-color: red;
+		}
+   </style>
 </head>
 
 <body>
-	<div class="container">
+	<div class="container main">
 		<div class="row header mb-2">
 			<!-- <img class="d-xl-none col-12 px-0" src="src/assets/edit.png"> -->
 			<img class="d-xl-none col-12 px-0" src="src/assets/header_mobile.jpg">
@@ -166,7 +177,6 @@
 		</div>
 		 -->
 		 
-	</div>
 	<!-- <br>
 	<br>
 	<br>
@@ -177,7 +187,7 @@
 	<br>
 	<br>
 	<br> -->
-	
+	<!-- <div class="main"> -->
 	<footer>
 	<!-- <div class="sticky"> -->
 		<div class="text-center justify-content-center">
@@ -198,7 +208,10 @@
 		<p class=" text-center">13th May, 2022 - IkoNoiJoi Sorter by Jun Joe/純ジョー</p>
 	<!-- </div> -->
 	</footer>
-		
+	<!-- </div> -->
+	
+	</div>
+	
 </body>
 
 </html>
