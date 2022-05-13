@@ -113,6 +113,10 @@ body {
   flex-direction: column;
 }
 
+.main {
+  flex-grow: 1;
+ }
+
 xxfooter {
   /* position:relative; */
   /* position: -webkit-sticky; */
@@ -129,6 +133,11 @@ xxfooter {
   background-color: #ea6c81;
   color: white;
 }
+
+footer {
+  background-color: #ea6c81;
+  color: white;
+ }
 
 /* footer */
 div.sticky {
