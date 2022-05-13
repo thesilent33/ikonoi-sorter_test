@@ -100,12 +100,13 @@ html
 
 body {
   font-family: "Bahnschrift", Helvetica, sans-serif;
-  position: relative;
+  /* position: relative; */
   /* min-height: 100%; */
   /* min-height: 100vh; */
   /* padding-bottom: 55%; */
   /* font-size: 14px;*/
   /* new lines */
+  /* Thx to https://levelup.gitconnected.com/how-to-keep-your-footer-at-the-bottom-of-the-page-the-easy-way-20aa3bcd621f */
   margin: 0;
   padding: 0;
   min-height: 100vh;
@@ -113,11 +114,12 @@ body {
   flex-direction: column;
 }
 
+/* Thx to https://levelup.gitconnected.com/how-to-keep-your-footer-at-the-bottom-of-the-page-the-easy-way-20aa3bcd621f */
 .main {
   flex-grow: 1;
  }
 
-xxfooter {
+footer_bak {
   /* position:relative; */
   /* position: -webkit-sticky; */
   position:sticky;
@@ -138,19 +140,9 @@ footer {
   background-color: #ea6c81;
   color: white;
   padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
  }
-
-/* footer */
-div.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  background-color: #ea6c81;
-  color: white;
-  padding: 1rem;
-  /* padding-bottom: 0.1rem; */
-  font-size: 0.7rem;
-}
 
 /*.container {
   display: flex;
