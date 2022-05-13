@@ -109,9 +109,9 @@ body {
 
 footer {
   /* position:relative; */
-  /* position: -webkit-sticky; */
-  position:fixed;
-  bottom: 0;
+  position: -webkit-absolute;
+  position:absolute;
+  bottom: -12rem;
   text-align: center;
   padding: 0px;
   padding-top: 1rem;
@@ -126,9 +126,9 @@ footer {
 
 /* footer */
 div.sticky {
-  position: -webkit-absoulte;
-  position: absolute;
-  bottom: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   background-color: #ea6c81;
   color: white;
   padding: 1rem;
