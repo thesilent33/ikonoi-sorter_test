@@ -564,8 +564,8 @@ a:visited {
 	.container
 	{
 		max-width: 100%;
-    /* padding-bottom: 10rem; */
-    padding-bottom: 3rem;
+    padding-bottom: 10rem;
+    /* padding-bottom: 3rem; */
 	}
 }
 
