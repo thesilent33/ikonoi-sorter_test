@@ -124,7 +124,6 @@ footer {
   color: white;
 }
 
-/* footer */
 div.sticky {
   position: -webkit-sticky;
   position: sticky;
@@ -327,7 +326,7 @@ div.sticky {
   font-size: 0.7rem;
   
   /* padding-bottom: 60vmin; */
-  /* padding-bottom: 4rem; */
+  padding-bottom: 4rem;
   
   
   /*grid-template-columns: repeat(3, 1fr);
@@ -565,7 +564,6 @@ a:visited {
 	{
 		max-width: 100%;
     padding-bottom: 10rem;
-    /* padding-bottom: 3rem; */
 	}
 }
 
