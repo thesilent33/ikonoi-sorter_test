@@ -124,6 +124,15 @@ footer {
   color: white;
 }
 
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #ea6c81;
+  padding: 50px;
+  font-size: 20px;
+}
+
 /*.container {
   display: flex;
   flex-flow: column nowrap;
