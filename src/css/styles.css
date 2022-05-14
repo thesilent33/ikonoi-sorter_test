@@ -116,7 +116,7 @@ body {
 
 /* Thx to https://levelup.gitconnected.com/how-to-keep-your-footer-at-the-bottom-of-the-page-the-easy-way-20aa3bcd621f */
 .main {
-  flex-grow: 0.1;
+  flex-grow: 0.5;
  }
 
 footer_bak {
